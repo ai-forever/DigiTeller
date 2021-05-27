@@ -58,6 +58,8 @@ Three levels are used in the VQ-VAE shown below, which compress 44 kHz unprocess
 
 ![2-3](https://user-images.githubusercontent.com/57997673/119854417-b82d5b80-bf19-11eb-9768-fec125905aac.png)
 
+After all the a priori are trained, the music is generated at the top level and then upsampled with upsamplers and decoded back into the raw audio space using a VQ-VAE decoder to sample new songs.
+
 ### Generate
 
 ![2-4](https://user-images.githubusercontent.com/57997673/119854500-c9766800-bf19-11eb-9969-8c88a5073b0c.png)
