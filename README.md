@@ -1,6 +1,6 @@
 # DigiTale
 
-Русская версия этого документа находится здесь.
+Русская версия этого документа находится [здесь.](https://github.com/sberbank-ai/DigiTales/blob/main/Readme_Rus.md)
 
 Artificial intelligence technologies are gaining more and more popularity in the creative industries: they are used to write music, create unique art objects, and much more.
 We want to invite you to create a solution that will help you create a video story. Algorithms of this kind greatly facilitate or even completely automate the time-consuming process of creating new stories and their visualization.
