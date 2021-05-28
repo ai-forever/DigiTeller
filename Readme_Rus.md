@@ -12,6 +12,8 @@
 
 [Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo#scrollTo=tKoiCpIv8bSp)
 
+[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR#scrollTo=S6PNruwp_VxI)
+
 Задача состоит из 4-х больших блоков, подробнее о них рассказано ниже.
 
 ## Блок 1. Text Generation
