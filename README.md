@@ -7,13 +7,13 @@ We want to invite you to create a solution that will help you create a video sto
 
 We provide a baseline consisting of 4 google collab notebooks:
 
-[Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN#scrollTo=5Pm8qBu6nVqL)
+[Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN?usp=sharing)
 
-[Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ#scrollTo=RpG5UbSw1U-_)
+[Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ?usp=sharing)
 
-[Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo#scrollTo=tKoiCpIv8bSp)
+[Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo?usp=sharing)
 
-[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR#scrollTo=S6PNruwp_VxI)
+[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR?usp=sharing)
 
 The task consists of 4 large blocks, more details about them are described below
 
@@ -81,40 +81,6 @@ Our intuition dictates that in order to accomplish this task, CLIP models must l
 ![3-1](https://user-images.githubusercontent.com/57997673/119855225-66d19c00-bf1a-11eb-89df-ff2d6d6e36f9.png)
 
 CLIP pre-trains an image encoder and a text encoder to predict which images were associated with which texts in our dataset. We then use this behavior to turn CLIP into a zero-shot classifier. We convert all dataset classes to captions, such as "dog photo", and predict the caption class. CLIP rates the best pairs with a given image.
-# Block 4.A
-Designed to learn long-range interactions on sequential
-data, transformers continue to show state-of-the-art results
-on a wide variety of tasks. In contrast to CNNs, they contain
-no inductive bias that prioritizes local interactions. This
-makes them expressive, but also computationally infeasible for long sequences, such as high-resolution images. We
-demonstrate how combining the effectiveness of the inductive bias of CNNs with the expressivity of transformers enables them to model and thereby synthesize high-resolution
-images. We show how to (i) use CNNs to learn a contextrich vocabulary of image constituents, and in turn (ii) utilize
-transformers to efficiently model their composition within
-high-resolution images. Our approach is readily applied
-to conditional synthesis tasks, where both non-spatial information, such as object classes, and spatial information,
-such as segmentations, can control the generated image.
-In particular, we present the first results on semanticallyguided synthesis of megapixel images with transformers.
-
-Transformers are on the rise—they are now the de-facto
-standard architecture for language tasks [63, 50, 51, 5]
-and are increasingly adapted in other areas such as audio
-[12] and vision [8, 15]. In contrast to the predominant vision architecture, convolutional neural networks (CNNs),
-the transformer architecture contains no built-in inductive
-prior on the locality of interactions and is therefore free
-to learn complex relationships among its inputs. However,
-this generality also implies that it has to learn all relationships, whereas CNNs have been designed to exploit prior
-knowledge about strong local correlations within images.
-Thus, the increased expressivity of transformers comes with
-quadratically increasing computational costs, because all
-pairwise interactions are taken into account. The resulting energy and time requirements of state-of-the-art transformer models thus pose fundamental problems for scaling
-them to high-resolution images with millions of pixels.
-![4-1](https://github.com/CompVis/taming-transformers/blob/master/assets/teaser.png)
-
-
-
-
-
-
 
 Solution based on
 * https://github.com/lucidrains/big-sleep
