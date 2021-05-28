@@ -78,7 +78,7 @@ It was critical to use natural language as a flexible predictive space to genera
 We show that scaling up a simple pre-training problem is sufficient to achieve competitive zero-shot performance on a large number of image classification datasets. Our method uses a widely available source of control: text combined with images found on the Internet. This data is used to create the following CLIP proxy training problem: from a given image, predict which of 32,768 randomly selected text fragments were actually associated with it in our dataset.
 Our intuition dictates that in order to accomplish this task, CLIP models must learn to recognize a wide range of visual concepts in images and associate them with their names. As a result, CLIP models can be applied to nearly arbitrary visual classification problems. For example, if the objective of the dataset is to classify photographs of dogs and cats, we check for each image whether the CLIP model predicts the textual description "dog photograph" or "cat photograph" is more likely to be paired. with this.
 
-![3-1](![image](https://user-images.githubusercontent.com/29739660/119980287-c1273700-bfc4-11eb-98cd-1b1189f4af86.png)
+![3-1](https://user-images.githubusercontent.com/29739660/119980287-c1273700-bfc4-11eb-98cd-1b1189f4af86.png)
 )
 
 CLIP pre-trains an image encoder and a text encoder to predict which images were associated with which texts in our dataset. We then use this behavior to turn CLIP into a zero-shot classifier. We convert all dataset classes to captions, such as "dog photo", and predict the caption class. CLIP rates the best pairs with a given image.
