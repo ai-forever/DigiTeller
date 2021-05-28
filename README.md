@@ -5,13 +5,15 @@
 Artificial intelligence technologies are gaining more and more popularity in the creative industries: they are used to write music, create unique art objects, and much more.
 We want to invite you to create a solution that will help you create a video story. Algorithms of this kind greatly facilitate or even completely automate the time-consuming process of creating new stories and their visualization.
 
-We provide a baseline consisting of 3 google collab notebooks:
+We provide a baseline consisting of 4 google collab notebooks:
 
 [Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN#scrollTo=5Pm8qBu6nVqL)
 
 [Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ#scrollTo=RpG5UbSw1U-_)
 
 [Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo#scrollTo=tKoiCpIv8bSp)
+
+[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR#scrollTo=S6PNruwp_VxI)
 
 The task consists of 4 large blocks, more details about them are described below
 
