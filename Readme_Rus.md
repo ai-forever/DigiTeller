@@ -6,13 +6,13 @@
 
 Мы предоставляем Baseline, состоящий из 3 ноутбуков Google Colab:
 
-[Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN#scrollTo=5Pm8qBu6nVqL)
+[Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN?usp=sharing)
 
-[Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ#scrollTo=RpG5UbSw1U-_)
+[Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ?usp=sharing)
 
-[Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo#scrollTo=tKoiCpIv8bSp)
+[Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo?usp=sharing)
 
-[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR#scrollTo=S6PNruwp_VxI)
+[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR?usp=sharing)
 
 Задача состоит из 4-х больших блоков, подробнее о них рассказано ниже.
 
