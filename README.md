@@ -78,9 +78,16 @@ It was critical to use natural language as a flexible predictive space to genera
 We show that scaling up a simple pre-training problem is sufficient to achieve competitive zero-shot performance on a large number of image classification datasets. Our method uses a widely available source of control: text combined with images found on the Internet. This data is used to create the following CLIP proxy training problem: from a given image, predict which of 32,768 randomly selected text fragments were actually associated with it in our dataset.
 Our intuition dictates that in order to accomplish this task, CLIP models must learn to recognize a wide range of visual concepts in images and associate them with their names. As a result, CLIP models can be applied to nearly arbitrary visual classification problems. For example, if the objective of the dataset is to classify photographs of dogs and cats, we check for each image whether the CLIP model predicts the textual description "dog photograph" or "cat photograph" is more likely to be paired. with this.
 
-![3-1](https://github.com/CompVis/taming-transformers/blob/master/assets/teaser.png)
+![3-1](![image](https://user-images.githubusercontent.com/29739660/119980287-c1273700-bfc4-11eb-98cd-1b1189f4af86.png)
+)
 
 CLIP pre-trains an image encoder and a text encoder to predict which images were associated with which texts in our dataset. We then use this behavior to turn CLIP into a zero-shot classifier. We convert all dataset classes to captions, such as "dog photo", and predict the caption class. CLIP rates the best pairs with a given image.
+
+## Block 4A. Clip generation, CLIP +Taming transformer
+
+![image](https://user-images.githubusercontent.com/29739660/119980344-d308da00-bfc4-11eb-9878-8d0ccb390a44.png)
+Designed to learn long-range interactions on sequential data, transformers continue to show state-of-the-art results on a wide variety of tasks. In contrast to CNNs, they contain no inductive bias that prioritizes local interactions. This makes them expressive, but also computationally infeasible for long sequences, such as high-resolution images. We demonstrate how combining the effectiveness of the inductive bias of CNNs with the expressivity of transformers enables them to model and thereby synthesize high-resolution images. We show how to (i) use CNNs to learn a context-rich vocabulary of image constituents, and in turn (ii) utilize transformers to efficiently model their composition within high-resolution images. Our approach is readily applied to conditional synthesis tasks, where both non-spatial information, such as object classes, and spatial information, such as segmentations, can control the generated image. In particular, we present the first results on semantically-guided synthesis of megapixel images with transformers.
+
 
 Solution based on
 * https://github.com/lucidrains/big-sleep
