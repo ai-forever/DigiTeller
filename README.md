@@ -70,7 +70,7 @@ After all the a priori are trained, the music is generated at the top level and 
 
 To pay attention to the lyrics, an encoder is added to create a representation of the lyrics, and attention levels are added that use requests from the music decoder to handle keys and values from the lyrics encoder. After training, the model learns to align the text more accurately.
 
-## Block 4. Part 4. Clip generation, CLIP + BIGGAN
+## Block 4. Clip generation, CLIP + BIGGAN
 
 CLIP (Contrastive Language - Image Pre-training) is based on a large body of work on zero-shot transfer, natural language control and multimodal learning. The idea of learning with zero-data originated in the 80s, but until recently was mainly studied in the field of computer vision as a way to generalize to the categories of invisible objects.
 It was critical to use natural language as a flexible predictive space to generalize and communicate. In 2013, Richer Socher and coauthors at Stanford developed a proof of concept by training a CIFAR-10 model to make predictions in the embedding space of word vectors, and showed that the model can predict two invisible classes. In the same year, DeVISE12 scaled up this approach and demonstrated that it was possible to fine-tune the ImageNet model so that it could be generalized to correctly predict features beyond the original 1000 training set.
