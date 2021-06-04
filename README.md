@@ -15,6 +15,8 @@ We provide a baseline consisting of 4 google collab notebooks:
 
 [Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR?usp=sharing)
 
+[Part 4](https://colab.research.google.com/drive/13sOtHgokbsDnC9l69VtQRDlRcI5Zau3Z?usp=sharing)
+
 The task consists of 4 large blocks, more details about them are described below
 
 ## Block 1. Text Generation
