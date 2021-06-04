@@ -90,6 +90,29 @@ CLIP pre-trains an image encoder and a text encoder to predict which images were
 ![image](https://user-images.githubusercontent.com/29739660/119980344-d308da00-bfc4-11eb-9878-8d0ccb390a44.png)
 Designed to learn long-range interactions on sequential data, transformers continue to show state-of-the-art results on a wide variety of tasks. In contrast to CNNs, they contain no inductive bias that prioritizes local interactions. This makes them expressive, but also computationally infeasible for long sequences, such as high-resolution images. We demonstrate how combining the effectiveness of the inductive bias of CNNs with the expressivity of transformers enables them to model and thereby synthesize high-resolution images. We show how to (i) use CNNs to learn a context-rich vocabulary of image constituents, and in turn (ii) utilize transformers to efficiently model their composition within high-resolution images. Our approach is readily applied to conditional synthesis tasks, where both non-spatial information, such as object classes, and spatial information, such as segmentations, can control the generated image. In particular, we present the first results on semantically-guided synthesis of megapixel images with transformers.
 
+## Block 5. Increaising image resolution, SuperResolution
+
+To solve the single image super resolution problem, GANs were used, namely ESRGANs. ESRGAN (Enchanced-SRGAN) is an improved version of the SRGAN neural network, so let's talk about it first.
+
+SRGAN is a generative adversarial neural network for the task of obtaining high quality photorealistic images from poor quality images.
+Generative adversarial networks are an algorithm built on a combination of two neural networks, one of which (generator) generates patterns, and the other (discriminator) tries to distinguish correct ("genuine") patterns from incorrect ones.
+The generator and discriminator architecture used in SRGAN:
+
+<img width="863" alt="srgan_architecture" src="https://user-images.githubusercontent.com/57997673/120758283-4e651100-c51a-11eb-8b5d-4c2a37135b3f.png">
+
+SRGAN's success in the super resolution task is due to the following features:
+Generative adversarial networks allow for more realistic images than neural networks based on MSE optimizations between pixels. The pixel-optimized MSE models averaged the textures, making them overly smooth. The use of GANs, thanks to a discriminator that learns to distinguish fake generated images from real ones, allows you to generate an image from a variety of photorealistic options without averaging all textures.
+
+![natural_manifold](https://user-images.githubusercontent.com/57997673/120758400-7785a180-c51a-11eb-82c2-1192deaf3608.png)
+
+The second important feature was the use of Perceptual loss. In the process of training the neural network, the optimization for MSE between pixels was replaced by perceptual loss, which is an MSE calculated in the feature space of a deep convolutional network (in particular, VGG19). This error is more invariant to changes in the pixels of the image, which gives the generator more freedom to change the image.
+
+### What has been improved in ESRGAN
+ESRGAN differs from its predecessor in two main innovations:
+
+-Changed the generator architecture, replacing residual blocks with larger Residual-in-Residual Dense blocks (RRDB) without batch normalization.
+-The usual discriminator has been replaced with a relativistic discriminator, which predicts the likelihood that the original image is more realistic than the generated one.
+
 
 Solution based on
 * https://github.com/lucidrains/big-sleep
@@ -97,3 +120,4 @@ Solution based on
 * https://openai.com/blog/clip/
 * https://openai.com/blog/jukebox/
 * https://magenta.tensorflow.org/music-transformer
+* https://arxiv.org/pdf/1809.00219.pdf
