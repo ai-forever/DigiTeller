@@ -7,15 +7,15 @@ We want to invite you to create a solution that will help you create a video sto
 
 We provide a baseline consisting of 5 google collab notebooks:
 
-[Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN?usp=sharing)
+[Part 1](https://colab.research.google.com/drive/10XDdWusJP8fyFVJYNrI4-NkOjdRV47_D?usp=sharing)
 
-[Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ?usp=sharing)
+[Part 2](https://colab.research.google.com/drive/1BzrSLZfXsMrxc1c3A9tp-_73qo-z2qjU?usp=sharing)
 
-[Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo?usp=sharing)
+[Part 3](https://colab.research.google.com/drive/16XBLgWJ-aYQMmu6OADSoO8a8rCf_ZQL5?usp=sharing)
 
-[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR?usp=sharing)
+[Part 3a](https://colab.research.google.com/drive/1ahU-a4bicqv3eUv_cKBax9pIeJiwHjFl?usp=sharing)
 
-[Part 4](https://colab.research.google.com/drive/13sOtHgokbsDnC9l69VtQRDlRcI5Zau3Z?usp=sharing)
+[Part 4](https://colab.research.google.com/drive/1ARNsECcfkWoJoxl25_G9xp5vOfS2HgXI?usp=sharing)
 
 The task consists of 5 large blocks, more details about them are described below
 
