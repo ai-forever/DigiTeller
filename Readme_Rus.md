@@ -4,7 +4,7 @@
 Мы хотим предложить вам создать решение, которое поможет в создании видеоистории. Подобного рода алгоритмы значительно облегчают или даже полностью автоматизируют трудоёмкий процесс создания новых историй и их визуализации.  
 
 
-Мы предоставляем Baseline, состоящий из 3 ноутбуков Google Colab:
+Мы предоставляем Baseline, состоящий из 5 ноутбуков Google Colab:
 
 [Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN?usp=sharing)
 
@@ -13,6 +13,8 @@
 [Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo?usp=sharing)
 
 [Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR?usp=sharing)
+
+[Part 4](https://colab.research.google.com/drive/13sOtHgokbsDnC9l69VtQRDlRcI5Zau3Z?usp=sharing)
 
 Задача состоит из 4-х больших блоков, подробнее о них рассказано ниже.
 
