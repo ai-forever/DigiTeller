@@ -5,7 +5,7 @@
 Artificial intelligence technologies are gaining more and more popularity in the creative industries: they are used to write music, create unique art objects, and much more.
 We want to invite you to create a solution that will help you create a video story. Algorithms of this kind greatly facilitate or even completely automate the time-consuming process of creating new stories and their visualization.
 
-We provide a baseline consisting of 4 google collab notebooks:
+We provide a baseline consisting of 5 google collab notebooks:
 
 [Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN?usp=sharing)
 
@@ -17,7 +17,7 @@ We provide a baseline consisting of 4 google collab notebooks:
 
 [Part 4](https://colab.research.google.com/drive/13sOtHgokbsDnC9l69VtQRDlRcI5Zau3Z?usp=sharing)
 
-The task consists of 4 large blocks, more details about them are described below
+The task consists of 5 large blocks, more details about them are described below
 
 ## Block 1. Text Generation
 Huge language models (like GPT-3) surprise us more and more with their capabilities. While business confidence in them is not yet sufficient to present them to their customers, these models demonstrate the beginnings of intelligence that will accelerate the development of automation and the capabilities of "smart" computing systems. Let's take the aura of mystery out of GPT-3 and find out how it learns and how it works.
