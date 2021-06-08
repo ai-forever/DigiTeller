@@ -1,4 +1,4 @@
-# DigiTales
+# DigiTeller
 
 Русская версия этого документа находится [здесь.](https://github.com/sberbank-ai/DigiTales/blob/main/Readme_Rus.md)
 
