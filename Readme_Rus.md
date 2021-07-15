@@ -5,16 +5,36 @@
 
 
 Мы предоставляем Baseline, состоящий из 5 ноутбуков Google Colab:
+# DigiTeller
 
-[Part 1](https://colab.research.google.com/drive/1tnWMZ26NygRQS1XpHDDBPBiPJvoUFcRN?usp=sharing)
+Русская версия этого документа находится [здесь.](https://github.com/sberbank-ai/DigiTales/blob/main/Readme_Rus.md)
 
-[Part 2](https://colab.research.google.com/drive/1CTw058KVOgbavUacXSa0fj1v-OgJywwJ?usp=sharing)
+Artificial intelligence technologies are gaining more and more popularity in the creative industries: they are used to write music, create unique art objects, and much more.
+We want to invite you to create a solution that will help you create a video story. Algorithms of this kind greatly facilitate or even completely automate the time-consuming process of creating new stories and their visualization.
 
-[Part 3](https://colab.research.google.com/drive/1Kt0Mb3_6O6RjUzPhYaK_3xeRANYtlxAo?usp=sharing)
+We provide a baseline consisting of 5 google collab notebooks:
 
-[Part 3a](https://colab.research.google.com/drive/1W2NL8vW9sij2xqNHclJqkw9FaVFXBioR?usp=sharing)
+[Part 1](https://colab.research.google.com/drive/10XDdWusJP8fyFVJYNrI4-NkOjdRV47_D?usp=sharing)
 
-[Part 4](https://colab.research.google.com/drive/13sOtHgokbsDnC9l69VtQRDlRcI5Zau3Z?usp=sharing)
+[Part1 A](https://colab.research.google.com/drive/1mk7U9jG8w8TmByEB9VKjt5Z7h_DVIOz2?usp=sharing)
+
+Ноутбук 1 Вторая версия является ответвлением первой, она обучена на 1гб датасете  
+
+[Part 2](https://colab.research.google.com/drive/1BzrSLZfXsMrxc1c3A9tp-_73qo-z2qjU?usp=sharing)
+
+[Part 2 А](https://colab.research.google.com/drive/1PdZ2Ki-HJh9HONVykTOBcjmOSCe4MhwY?usp=sharing)
+
+Silero V2, во второй версии Silero авторы добавили автоматическую генерацию ударений
+
+[Part 3](https://colab.research.google.com/drive/16XBLgWJ-aYQMmu6OADSoO8a8rCf_ZQL5?usp=sharing)
+
+[Part 3a](https://colab.research.google.com/drive/1ahU-a4bicqv3eUv_cKBax9pIeJiwHjFl?usp=sharing)
+
+[Part 3B](https://colab.research.google.com/drive/10XqQM1rmwmEbrDBTDRT7SN8vX_OZDSmE#scrollTo=ukxFcvUk_epI)
+
+Добавили фильтр по частям речи
+
+[Part 4](https://colab.research.google.com/drive/1ARNsECcfkWoJoxl25_G9xp5vOfS2HgXI?usp=sharing)
 
 Задача состоит из 5-ти больших блоков, подробнее о них рассказано ниже.
 
