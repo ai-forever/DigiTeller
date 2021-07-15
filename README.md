@@ -10,9 +10,13 @@ We provide a baseline consisting of 5 google collab notebooks:
 [Part 1](https://colab.research.google.com/drive/10XDdWusJP8fyFVJYNrI4-NkOjdRV47_D?usp=sharing)
 
 [Part1 A](https://colab.research.google.com/drive/1mk7U9jG8w8TmByEB9VKjt5Z7h_DVIOz2?usp=sharing)
+
 Trained on giant Ficbook dataset, description and data availible 
+
 [Part 2](https://colab.research.google.com/drive/1BzrSLZfXsMrxc1c3A9tp-_73qo-z2qjU?usp=sharing)
+
 [Part 2](https://colab.research.google.com/drive/1PdZ2Ki-HJh9HONVykTOBcjmOSCe4MhwY?usp=sharing)
+
 Silero V2 features, only Ksenya
 
 [Part 3](https://colab.research.google.com/drive/16XBLgWJ-aYQMmu6OADSoO8a8rCf_ZQL5?usp=sharing)
@@ -20,6 +24,7 @@ Silero V2 features, only Ksenya
 [Part 3a](https://colab.research.google.com/drive/1ahU-a4bicqv3eUv_cKBax9pIeJiwHjFl?usp=sharing)
 
 [Part 3B](https://colab.research.google.com/drive/10XqQM1rmwmEbrDBTDRT7SN8vX_OZDSmE#scrollTo=ukxFcvUk_epI)
+
 Implemented new features such as Part od Speech filtering
 
 [Part 4](https://colab.research.google.com/drive/1ARNsECcfkWoJoxl25_G9xp5vOfS2HgXI?usp=sharing)
