@@ -5,11 +5,16 @@
 Artificial intelligence technologies are gaining more and more popularity in the creative industries: they are used to write music, create unique art objects, and much more.
 We want to invite you to create a solution that will help you create a video story. Algorithms of this kind greatly facilitate or even completely automate the time-consuming process of creating new stories and their visualization.
 
-We provide a baseline consisting of 5 google collab notebooks:
+We provide a baseline consisting of google collab notebooks:
 
 [Part 1](https://colab.research.google.com/drive/10XDdWusJP8fyFVJYNrI4-NkOjdRV47_D?usp=sharing)
-
+dataset for training [here](https://drive.google.com/file/d/1iVBMLz_9MbFEp1wL2QjmVNkbnFs6iBxR/view?usp=sharing)
 [Part1 A](https://colab.research.google.com/drive/1mk7U9jG8w8TmByEB9VKjt5Z7h_DVIOz2?usp=sharing)
+
+[Part1 Songs](https://colab.research.google.com/drive/1Imu55S5In67ouALiqwvvyZthjUYVcJ2t?usp=sharing)
+datset for training [lyrics](https://drive.google.com/file/d/1y2MexkTjwFbhePj3HUslY1gmxOmpYzy3/view?usp=sharing) 
+
+[chords](https://drive.google.com/file/d/1Ak2H78XW31oNEtM3m2jL1UJZ5fFpU3tt/view?usp=sharing)
 
 Trained on giant Ficbook dataset, description and data availible 
 
