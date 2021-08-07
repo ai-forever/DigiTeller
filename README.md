@@ -9,7 +9,7 @@ We provide a baseline consisting of google collab notebooks:
 
 [Part 1](https://colab.research.google.com/drive/10XDdWusJP8fyFVJYNrI4-NkOjdRV47_D?usp=sharing)
 
-dataset for training [here](https://drive.google.com/file/d/1iVBMLz_9MbFEp1wL2QjmVNkbnFs6iBxR/view?usp=sharing)
+ * dataset for training [here](https://drive.google.com/file/d/1iVBMLz_9MbFEp1wL2QjmVNkbnFs6iBxR/view?usp=sharing)
 
 [Part1 A](https://colab.research.google.com/drive/1mk7U9jG8w8TmByEB9VKjt5Z7h_DVIOz2?usp=sharing)
 
