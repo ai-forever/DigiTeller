@@ -34,6 +34,10 @@ Silero V2 features, only Ksenya
 
 [Part 3B](https://colab.research.google.com/drive/10XqQM1rmwmEbrDBTDRT7SN8vX_OZDSmE#scrollTo=ukxFcvUk_epI)
 
+[Pixel draw](https://colab.research.google.com/github/tg-bomze/collection-of-notebooks/blob/master/Text2PixelArt.ipynb)
+
+[MT CLIP + VQGAN](https://colab.research.google.com/drive/1MpVMCq2G_LIeqwOvWy-ECg-j_M3VLCbv?usp=sharing)
+
 Implemented new features such as Part od Speech filtering
 
 [Part 4](https://colab.research.google.com/drive/1ARNsECcfkWoJoxl25_G9xp5vOfS2HgXI?usp=sharing)
