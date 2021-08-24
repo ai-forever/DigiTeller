@@ -5,7 +5,13 @@
 Artificial intelligence technologies are gaining more and more popularity in the creative industries: they are used to write music, create unique art objects, and much more.
 We want to invite you to create a solution that will help you create a video story. Algorithms of this kind greatly facilitate or even completely automate the time-consuming process of creating new stories and their visualization.
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/CH8hfuGudVA/0.jpg)](http://www.youtube.com/watch?v=CH8hfuGudVA "Digi Teller baseline test")
+
+
+
+
 We provide a baseline consisting of google collab notebooks:
+
 
 [Part 1](https://colab.research.google.com/drive/10XDdWusJP8fyFVJYNrI4-NkOjdRV47_D?usp=sharing)
 
