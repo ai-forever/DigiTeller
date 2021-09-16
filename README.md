@@ -30,7 +30,7 @@ Trained on giant Ficbook dataset, description and data availible
 
 [Part 2](https://colab.research.google.com/drive/1BzrSLZfXsMrxc1c3A9tp-_73qo-z2qjU?usp=sharing)
 
-[Part 2](https://colab.research.google.com/drive/1PdZ2Ki-HJh9HONVykTOBcjmOSCe4MhwY?usp=sharing)
+[Part 2 A](https://colab.research.google.com/drive/1PdZ2Ki-HJh9HONVykTOBcjmOSCe4MhwY?usp=sharing)
 
 Silero V2 features, only Ksenya
 
