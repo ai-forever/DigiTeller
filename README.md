@@ -44,6 +44,9 @@ Silero V2 features, only Ksenya
 
 [MT CLIP + VQGAN](https://colab.research.google.com/drive/1MpVMCq2G_LIeqwOvWy-ECg-j_M3VLCbv?usp=sharing)
 
+[Half Pression Diffusuion Model](https://colab.research.google.com/drive/18YfYqAMvUul6cn0I949F8d0gTcZW-L4q?usp=sharing)
+Possible to run on T4 and K80 gpu
+
 Implemented new features such as Part od Speech filtering
 
 [Part 4](https://colab.research.google.com/drive/1ARNsECcfkWoJoxl25_G9xp5vOfS2HgXI?usp=sharing)
